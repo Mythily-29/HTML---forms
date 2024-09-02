@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Job Application</title>
+	<style>
+		.color1{
+			background-color:#C8A1E0;
+			padding: 5px;
+			margin: 5px;
+		}
+		.color2{
+			background-color: #E2BFD9;
+			padding: 5px;
+			margin: 5px;
+		}
+		#color1{
+			background-color: aquamarine;
+			padding: 15px;
+			width: 70px;
+			font-size: larger;
+			font-family: 'Courier New', Courier, monospace;
+		
+		}
+		#head{
+			color: rgb(19, 84, 204);
+			font-family: 'Courier New', Courier, monospace;
+			font-size: large;
+			font-style: italic;
+
+		}
+		#field{
+			color:darkviolet;
+			font-size: larger;
+			font-style: inherit;
+		}
+		#para{
+			background-color:rgb(201, 124, 136);
+			font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+			font-size: medium;
+			font-style: italic;
+			padding: 10px;
+			
+		}
+		#blood{
+			background-color: lightpink;
+		}
+		#salary{
+			background-color: lightpink;
+		}
+		.btn{
+			color: aqua;
+  			text-align: center;
+		}
+		#job{
+			background-color: aqua;
+		}
+	</style>
+</head>
+<body >
+	<form method="GET" action="next.html" width="50px">
+		<fieldset >
+			<legend id="field">APPLICATION FORM</legend>
+		<div id="head">
+			<h1 >GOOGLE</h1>
+		</div>
+		<div id="para">
+			<p>Google LLC, founded in 1998 by Larry Page and Sergey Brin, is a multinational technology company renowned for its pioneering search engine and vast array of digital services. Headquartered in Mountain View, California, Google operates as a subsidiary of Alphabet Inc. The company’s core offerings include Google Search, Google Ads, Google Cloud, and a suite of productivity tools like Gmail and Google Workspace. Known for its innovation in areas such as artificial intelligence, advertising technology, and cloud computing, Google has significantly shaped the digital landscape, influencing how people connect, learn, and conduct business around the world.<p>
+		</div><br><br>
+		<div id ="color1" >
+			<a href="https://www.google.com" >GOOGLE</a><br>
+			</div>
+			<div class="color2">
+				<label for="firstname">Enter First name</label><br>
+				<input type="text" name="firstname" id="firstname" required placeholder="Enter your first name">
+			</div>
+			<div class="color1">
+				<label for="lastname">Enter Last name</label><br>
+				<input type="text" name="lastname" id="lastname" required placeholder="Enter your lastname">
+			</div>
+			<div class="color2">
+				<label for="dob">Enter your DOB</label><br>
+				<input type="date" name="date of birth" id="dob" required placeholder="Enter DOB">
+			</div>
+	
+			<div class="color1">
+				<label>Gender</label><br>
+				<input type="radio" name="Gender" id="Female" value="Female" required>
+				<label for="Female">Female</label><br>
+				<input type="radio" name="Gender" id="Male" value="Male" required>
+				<label for="Male">Male</label><br>
+				<input type="radio" name="Gender" id="Others" value="Others" required>
+				<label for="Others">Others</label><br>
+			</div>
+			<div class="color2">
+				<label for="age" >Enter your Age</label><br>
+				<input type="number" name="date of birth" id="age" required placeholder="Enter age" min="18" max="35" >
+			</div>
+			<div class="color1">
+				<label for="blood">Choose your Blood group</label><br>
+				<select id="blood">
+					<option value="">Choose your blood type</option>
+					<option value="A+">A+</option>
+					<option value="B+">B+</option>
+					<option value="AB+">AB+</option>
+					<option value="AB-">AB-</option>
+					<option value="O+">O+</option>
+					<option value="O-">O-</option>
+				</select>
+			</div>
+			<div class="color2">
+				<label for="nation" >Enter your Nationality</label><br>
+				<input type="text" name="nation" id="nation" required placeholder="Enter your nationality" minlength="6" maxlength="15">
+			</div>
+			<div class="color1">
+				<label for="father" >Enter your Father Name</label><br>
+				<input type="text" name="father" id="father" required placeholder="Father Name" minlength="5" maxlength="25">
+			</div>
+			<div class="color2">
+				<label for="mother" >Enter your Mother Name</label><br>
+				<input type="text" name="mother" id="mother" required placeholder="Mother Name" minlength="5" maxlength="25">
+			</div>
+			<div class="color1">
+				<label for="mail" >Enter your Mail Id</label><br>
+				<input type="email" name="mail" id="mail" required placeholder="Your mail Id">
+			</div>
+			<div class="color2">
+				<label for="num" >Enter your Mobile number</label><br>
+				<input type="tel" name="num" id="num" required placeholder="Your Phone no" min="12">
+			</div>
+			<div class="color1">
+				<label for="address" >Enter your Address</label><br>
+				<input type="text" name="address" id="address" required placeholder="Enter address" >
+			</div>
+			<div class="color2"> 
+
+			<label>Office Location</label>
+			<h3>Office Location</h3>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.149423055313!2d80.22584100000002!3d13.089715000000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a52642e3c8faf7f%3A0x5c1f7526b2bfe819!2sDCKAP!5e0!3m2!1sen!2sin!4v1723610600455!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="25" height="25"></iframe>
+				
+			</div>
+			<div class="color1">
+				<label>Courses Known</label><br><br>
+				<input type="checkbox" name="" id="HTML" value="HTML" >
+				<label>HTML</label><br>
+				<input type="checkbox" name="" id="Python" value="Python">
+				<label>Python</label><br>
+				<input type="checkbox" name="" id="Java" value="Java">
+				<label>Java</label><br>
+				<input type="checkbox" name="" id="Javascript" value="Javascript">
+				<label>Javascript</label><br>
+				<input type="checkbox" name="" id="C++" value="C++">
+				<label>C++</label>
+			</div>
+			<div class="color2">
+				<label for="job">Select your Job role</label><br><br>
+				<select id="job">
+				<option value="">Choose any one</option>
+				<option value="Full stack developer">Full stack developer</option>
+				<option value="Frontend developer">Frontend developer</option>
+				<option value="Backend developer">Backend developer</option>
+				<option value="QA touch">QA touch</option>
+				<option value="Python developer">Python developer</option>
+			</select>
+			</div>
+			<div class="color1">
+				<label for="number">Enter Passout Year</label><br>
+				<input type="number" name="number" id="number" min="2015" max="2024" required placeholder="select Year">
+			</div>
+			<div class="color2">
+				<label for="aadhar">Upload your aadhar card</label><br><br>
+				<input type="file" name="aadhar" id="aadhar"  required>
+			</div>
+			<div class="color1">
+				<label for="resume">Upload your Resume</label><br><br>
+				<input type="file" name="resume" id="resume"  required>
+			</div>
+			<div class="color2">
+				<label for="10th">Upload your 10<sup>th</sup> marksheet</label><br><br>
+				<input type="file" name="10th" id="10th"  required>
+			</div>
+			<div class="color1">
+				<label for="12th">Upload your 12<sup>th</sup> marksheet</label><br><br>
+				<input type="file" name="12th" id="12th"  required>
+			</div>
+			<div class="color2">
+				<label for="diploma">Upload your Diploma marksheet</label><br><br>
+				<input type="file" name="diploma" id="diploma"  required>
+			</div>
+			<div class="color1">
+				<label for="exp">Enter your Experience</label><br><br>
+				<input type="tel" name="exp" id="exp" min="1" max="10" placeholder="Enter Experience" required>
+			</div>
+			<div class="color2">
+				<label for="salary">Select your expected salary</label><br><br>
+			<select id="salary">
+				<option value="">Choose any one</option>
+				<option value="25000">25000</option>
+				<option value="30000">30000</option>
+				<option value="35000">35000</option>
+				<option value="37000">37000</option>
+				<option value="28000">28000</option>
+			</select>
+			</div>
+			<div class="color1">
+				<label for="role">Enter your Previous Company & Job role</label><br><br>
+				<input type="text" name="role" id="role"  placeholder="Enter company and role" required>
+			</div>
+			<div class="color2">
+				<label for="whychoosejob">Why you choose this Job ?</label><br><br>
+				<textarea> why do you prefer this job</textarea>
+			</div>
+			<div>
+			<input type="submit" class="btn">
+			</div><br>
+			<div>
+				<input type="reset" class="btn">
+				</div>
+			
+
+
+
+	</form>
+	</fieldset>
+	
+</body>
+</html>
